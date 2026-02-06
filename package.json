@@ -1,0 +1,10 @@
+{
+  "name": "integribim-site",
+  "version": "1.0.0",
+  "description": "Static marketing site for BIM and Industry 4.0 integration services.",
+  "private": true,
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "mkdir -p dist && cp -R index.html solutions.html use-cases.html methodology.html resources.html about.html contact.html styles.css dist/"
+  }
+}
